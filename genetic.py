@@ -10,7 +10,7 @@ NUM_GENES = 20
 GEN_MIN, GEN_MAX = 1, 9
 
 ELITISM = 2                 # 2 de los mejores individuos de cada generación pasan directamente a la siguiente generación
-PMUT_BASE = 0.10            # con 20 genes, esperamos 4 genes mutados por hijo
+PMUT_BASE = 0.10            # con 20 genes, esperamos 2 genes mutados por hijo (Cambiar a que sean maximo dos genes mutados)
 PMUT_MAX  = 0.25            # mutación máxima
 PMUT_DOWN = 0.01            # pequeña probabilidad de bajar un gen para mantener diversidad genética en la población
 
